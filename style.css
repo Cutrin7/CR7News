@@ -1,28 +1,70 @@
 
-/* Cabeçalho */
-header{
-    background-color: #CD1818;
-    text-align: center;
-    padding: 10px; 
-    margin: -8px;
-    display: flex;
-    justify-content: center;
+    /* Cabeçalho */
+
+    header{
+        background-color: #CD1818;
+        text-align: center;
+        padding: 10px; 
+        margin: -8px;
 
     .logo{
-        width: 100px;
-        height: 80px;
-        
+        width: 120px;
+        height: 95px;
     }
+    }
+
+    a{
+     text-decoration: none;
+     font-size: 15px;
+     padding: 10px;
+     margin: 10px;
+     width: 50px;
+     height:50px;
+     color: black;
+     font-size: 21px;
+     font-weight: bold;
+}
+
+a:hover {
+    color: black;
+    background: #FFFFFF;
+    border: 1px solid black ;
+    transition: all 0.5s; 
+}
+
+ul {
+    list-style: none;
+    display: flex;  
+    position: relative;
+    justify-content:space-around;
 }
 
 /* Nóticias */
 
-.img1{
-    width: 500px;
-    margin-top: 50px;
-    margin-left: 30px;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.img1:hover{
-    transform: translateX(0px) scale(1.1);
+.tudo{
+    text-align: left;
+    margin: auto;
+    padding: 50px;
+    padding-left: 425px;
+    padding-right: 425px;
 }
+
+.foto{
+    width: 475px;
+    height: 425px;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.877);
+}
+
